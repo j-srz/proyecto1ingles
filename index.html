@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css a boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Carbon Footprint</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav nav-pills">
+            <a class="nav-link" aria-current="page" href="#1"
+              >Carbon Footprint</a
+            >
+            <a class="nav-link" href="#2">Pollution</a>
+            <a class="nav-link" href="#3">10 activities that pollute</a>
+            <a class="nav-link" href="#4">Contribute to sustainability</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+      style="max-height: 50vh"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          data-bs-interval="10000"
+          style="max-height: 50vh"
+        >
+          <img src="./imagen1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div
+          class="carousel-item"
+          data-bs-interval="2000"
+          style="max-height: 50vh"
+        >
+          <img src="./imagen2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" style="max-height: 50vh">
+          <img src="./imagen3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <main class="container">
+      <section>
+        <article class="mt-3">
+          <h2 id="1">Carbon Footprint</h2>
+
+          <table class="table mt-3">
+            <tr class="table-dark">
+              <td><b>S.No</b></td>
+              <td><b>Factors</b></td>
+              <td><b>Consumption</b></td>
+              <td><b>Carbon emission in Kg. per annum</b></td>
+              <td><b>In %</b></td>
+            </tr>
+            <tr>
+              <td>1.</td>
+              <td>Engineering Laboratories & Workshops</td>
+              <td>LPG and other chemicals</td>
+              <td>1500</td>
+              <td>0.07%</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Paper and Note books</td>
+              <td>12500kg</td>
+              <td>7812</td>
+              <td>0.37%</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Waste Treatment Plant</td>
+              <td>120000000 litre</td>
+              <td>31134</td>
+              <td>1.46%</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>Commuting Faculty (P/D)</td>
+              <td>18500/10000 litre</td>
+              <td>69550</td>
+              <td>3.27%</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>LPG</td>
+              <td>36250 kg</td>
+              <td>127890</td>
+              <td>6.00%</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Food Wastage</td>
+              <td>75000 kg</td>
+              <td>142500</td>
+              <td>6.69%</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>Laptops</td>
+              <td>4250000 hrs</td>
+              <td>212500</td>
+              <td>9.98%</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>Commuting Students (P/D)</td>
+              <td>92500/5000 litre</td>
+              <td>225100</td>
+              <td>10.57%</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>Fuel (disel)</td>
+              <td>131250 litre</td>
+              <td>354375</td>
+              <td>16.64%</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>Mobile Phone</td>
+              <td>106250 hrs.</td>
+              <td>363375</td>
+              <td>17.06%</td>
+            </tr>
+            <tr>
+              <td>11.</td>
+              <td>Imported Electricity</td>
+              <td>990000units (kwh)</td>
+              <td>594000</td>
+              <td>27.89%</td>
+            </tr>
+            <tr>
+              <td colspan="3">Total</td>
+              <td>2129736</td>
+            </tr>
+          </table>
+
+          <p>
+            Our carbon footprint is the effect we have on the Earth by emitting
+            greenhouse gases (both directly and indirectly). It's measured in
+            tonnes of CO2 emitted into the atmosphere and does not paint our
+            civilisation in a good light.
+          </p>
+
+          <p>
+            We can't blame it all on huge machines and big corporations. You
+            also pollute. In your day-to-day life, your small daily actions are
+            leaving a trail and increasing the overall amount of CO2 in our
+            environment.
+          </p>
+
+          <p>
+            We are all (some much more so, some less so) threatening the
+            sustainability of our planet. From using plastic bags to spraying
+            deodorant, there are countless things we do without even realising
+            that are continuously damaging the environment.
+          </p>
+          <p>
+            Often, we can make a huge personal contribution by assessing our
+            habits and getting rid of those that we don't need, or replacing
+            them with others that don't have the same environmental impact.
+          </p>
+          <p>
+            Before we look at how we can reduce our footprint, we should
+            determine, in plain terms, our annual contribution to CO2 emissions
+            in the atmosphere.
+          </p>
+          <p>
+            It's surprising to learn that a one-person household can produce
+            more than 3 tonnes of CO2, solely through electricity consumption
+            (excluding other energy sources). Similarly, an average-sized
+            vehicle covering 15,000 km a year can emit 2.5 tonnes of CO2.
+          </p>
+        </article>
+
+        <article class="mt-3">
+          <h2 id="2">Introduction</h2>
+
+          <p>
+            Many things that are useful to people produce pollution. Cars spew
+            pollutants from their exhaust pipes. Burning coal to create
+            electricity pollutes the air. Industries and homes generate garbage
+            and sewage that can pollute the land and water. Pesticides—chemical
+            poisons used to kill weeds and insects—seep into waterways and harm
+            wildlife. Pollution is a global problem. Although urban areas are
+            usually more polluted than the countryside, pollution can spread to
+            remote places where no people live. For example, pesticides and
+            other chemicals have been found in the Antarctic ice sheet. In the
+            middle of the northern Pacific Ocean, a huge collection of
+            microscopic plastic particles forms what is known as the Great
+            Pacific Garbage Patch.
+          </p>
+
+          <p>
+            Leaving the tap running while you brush your teeth, drinking bottled
+            water and throwing chewing gum on the ground. These, and other
+            everyday habits show that we are sometimes unaware of how we pollute
+            the environment. Learn about the small daily habits you can change
+            to benefit the planet.
+          </p>
+
+          <p>
+            We are breaking a terrible record, one that has never occurred in
+            the history of mankind. Animals and plants are becoming extinct
+            thousands of times faster than they have done in the last 500
+            million years and, according to the International Union for
+            Conservation of Nature (IUCN), if we don't do something about it
+            now, within a century we will have lost 67% of the currently
+            endangered fauna and 99.9% will be in serious danger of extinction.
+          </p>
+
+          <p>
+            According to a study conducted by the University of Aarhus in
+            Denmark in 2018, the damage will be so devastating that the planet
+            will need between 3 and 5 million years to recover from the sixth
+            mass extinction in history and the first caused by mankind. The
+            effects of development, agriculture and industrial livestock
+            farming, forest destruction and CO2 emissions, among other actions,
+            are speeding up the loss of biodiversity due to global warming,
+            desertification and the pollution of oceans and rivers.
+          </p>
+        </article>
+
+        <article class="mt-3">
+          <h2 id="3">10 everyday activities that pollute</h2>
+
+          <p>
+            We are all responsible for global warming. We habitually use things
+            that pollute the environment without knowing it and we need to avoid
+            them at all cost. For example:
+          </p>
+          <ul class="list-group">
+            <!--1-->
+            <li class="list-group-item">
+              <b>Using aerosol deodorants.</b> Aerosols damage air quality,
+              although, according to a 2018 article in scientific journal Nature
+              Communications, their effects on temperature vary according to the
+              part of the world where they are used.
+              <!--2-->
+            </li>
+            <li class="list-group-item">
+              <b>Bottled water.</b> Plastic water bottles take 500 years to
+              break down and they release microparticles which are dangerous to
+              health.
+              <!--3-->
+            </li>
+            <li class="list-group-item">
+              <b>Throwing chewing gum on the ground.</b> Chewing gum consists
+              primarily of neutral plastic and, as well as littering the
+              streets, it chokes and kills many birds who mistake it for food.
+              <!--4-->
+            </li>
+            <li class="list-group-item">
+              <b>Washing with the tap running.</b> Scientists from North
+              Carolina State University (USA) Have calculated that we would save
+              over 1,400 litres per person per month just by turning off the tap
+              when we wash our hands and brush our teeth.
+              <!--5-->
+            </li>
+            <li class="list-group-item">
+              <b>Eating foods that contain palm oil.</b> Chewing gum consists
+              primarily of neutral plastic and, as well as littering the
+              streets, it chokes and kills many birds who mistake it for food.
+              <!--6-->
+            </li>
+            <li class="list-group-item">
+              <b>Leaving cigarette butts on the beach.</b> This is the most
+              commonly found waste on the coast, they take up to 10 years to
+              break down and release contaminating metals.
+              <!--7-->
+            </li>
+            <li class="list-group-item">
+              <b>Throwing disposable wipes down the toilet.</b> These do not
+              break down like toilet paper and they are responsible for most
+              blockages in water treatment plants and sewers.
+              <!--8-->
+            </li>
+            <li class="list-group-item">
+              <b>Releasing helium balloons into the air.</b> This is extremely
+              dangerous to birds, fish and other marine animals that can choke
+              if they eat them by mistake.
+              <!--9-->
+            </li>
+            <li class="list-group-item">
+              <b>Throwing batteries in the rubbish.</b> They contain mercury —
+              one of the most toxic metals in the world — and take 500 to 1,000
+              years to break down. Just one battery can contaminate up to 3,000
+              litres of water.
+              <!--10-->
+            </li>
+            <li class="list-group-item">
+              <b
+                >Throwing away plastic six-pack ring carriers without cutting
+                them up.</b
+              >
+              These plastic rings trap animals like fish and turtles, causing
+              mutilation, malformation and even death.
+            </li>
+          </ul>
+        </article>
+
+        <article class="mt-3">
+          <h2 id="4">How to contribute to sustainability</h2>
+
+          <p>
+            Before we performed these calculations, it seemed like it would take
+            a large group of people to emit 1 tonne of CO2, but now we have
+            realised the significant individual impact of our actions.
+          </p>
+          <p>
+            If these actions can have such a huge effect on the health of our
+            planet, it's clear that if we correct them, we can create a
+            reduction of equal impact.
+          </p>
+          <p>
+            If we want our planet to survive, something has to give. We need to
+            consume:
+          </p>
+
+          <div class="accordion" id="accordionExample">
+            <!--1-->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Less energy
+                </button>
+              </h4>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Although electricity is one of the energy sources that
+                    produces the least pollution, it is also one of the ones
+                    that we use the most, meaning that our lives are filled with
+                    habits that require unnecessary consumption.
+                  </p>
+
+                  <ul>
+                    <li>
+                      Only use the washing machine and dishwasher on a full
+                      load. Avoid using the tumble dryer.
+                    </li>
+
+                    <li>
+                      Use extension leads with switches to avoid phantom power
+                      consumption, which is costing you EUR 5 a month.
+                    </li>
+
+                    <li>
+                      Use a flask to keep drinks hot instead of reheating them
+                      in the microwave or on the hob.
+                    </li>
+
+                    <li>If you haven't already, switch to LED bulbs.</li>
+
+                    <li>
+                      Keep your fridge clean (with no ice build-up) and away
+                      from heat sources. Don't put hot food in the fridge.
+                    </li>
+
+                    <li>Take quick showers instead of long baths.</li>
+
+                    <li>
+                      Turn down your heating: lowering the temperature by just
+                      1°C results in 300 kg less CO2 emissions.
+                    </li>
+
+                    <li>
+                      Turn down your air conditioning: consumption of 1 kWh
+                      represents emissions of 650 g of CO2.
+                    </li>
+
+                    <li>
+                      Always look for appliances with the best energy efficiency
+                      rating possible.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Less plastic
+                </button>
+              </h4>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    In addition to the high levels of harmful gases emitted
+                    during their production, plastics and microplastics are
+                    practically indestructible and have a huge impact on
+                    ecosystems. This is why we must:
+                  </p>
+                  <ul>
+                    <li>Recycle: put all plastic in the yellow container.</li>
+
+                    <li>
+                      Only use paper or fabric bags, reusing them as much as
+                      possible.
+                    </li>
+
+                    <li>
+                      When making purchases, always opt for products in
+                      cardboard, metal or glass packaging. If you can't avoid
+                      buying plastic packaging, choose larger sizes;
+                      manufacturing a 1.5l bottle generates less pollution than
+                      a 0.5l bottle.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Fewer fossil fuels
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    A good portion of the CO2 emissions come from exhaust pipes.
+                    Specifically, a vehicle powered by fossil fuel (petrol,
+                    diesel) is the least efficient as it is the one that
+                    generates most emissions per passenger transported:
+                  </p>
+                  <ul>
+                    <li>
+                      Use non-polluting vehicles: bicycles and scooters, or
+                      public transport in those cases and cities where fleets
+                      with low or zero emissions have been made available.
+                    </li>
+
+                    <li>
+                      Avoid using the car for short journeys and keep it in good
+                      condition so that the emissions match those designed by
+                      the manufacturer.
+                    </li>
+
+                    <li>
+                      Switch to electric or hybrid vehicles wherever possible.
+                    </li>
+                  </ul>
+                  <p>
+                    The electric car is undoubtedly the future of
+                    sustainability. In Endesa we already have a 100% green
+                    tariff for which you pay the same every month regardless of
+                    your consumption.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#1" class="nav-link px-2 text-muted">Carbon Footprint</a>
+          </li>
+          <li class="nav-item">
+            <a href="#2" class="nav-link px-2 text-muted">Pollution</a>
+          </li>
+          <li class="nav-item">
+            <a href="#3" class="nav-link px-2 text-muted">10 activities that pollute</a>
+          </li>
+          <li class="nav-item">
+            <a href="#4" class="nav-link px-2 text-muted">Contribute to sustainability</a>
+          </li>
+        </ul>
+        <a href="https://www.cbtis168.edu.mx/"><p class="text-center text-muted">CBTis 168</p></a>
+      </footer>
+    </div>
+
+
+    <!-- JS a bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
